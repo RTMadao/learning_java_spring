@@ -12,9 +12,9 @@ public class Cliente {
 
     private String nombre;
 
-    private String apellido;
+    private String apellidos;
 
-    private Integer celular;
+    private Long celular;
 
     private  String direccion;
 
@@ -41,19 +41,19 @@ public class Cliente {
         this.nombre = nombre;
     }
 
-    public String getApellido() {
-        return apellido;
+    public String getApellidos() {
+        return apellidos;
     }
 
-    public void setApellido(String apellido) {
-        this.apellido = apellido;
+    public void setApellidos(String apellido) {
+        this.apellidos = apellido;
     }
 
-    public Integer getCelular() {
+    public Long getCelular() {
         return celular;
     }
 
-    public void setCelular(Integer celular) {
+    public void setCelular(Long celular) {
         this.celular = celular;
     }
 
